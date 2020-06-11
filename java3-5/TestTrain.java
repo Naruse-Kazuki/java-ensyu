@@ -22,7 +22,7 @@ class Train{
         System.out.println("Capacity    :" + capacity);
     }
 }
-class TestTrain{
+public class TestTrain{
     public static void main(String[] args){
         Train tr = new Train("Chuo Line","Tokyo",2000);
         tr.display();
