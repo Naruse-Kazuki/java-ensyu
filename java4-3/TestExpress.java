@@ -47,10 +47,9 @@ class Express extends Train{
     }
     @Override
     public void display(){
-        setName("Narita Express");
-        setDest("Narita");
-        setCapacity(2000);
-        super.display();
+        System.out.println("LineName    :" + getName());
+        System.out.println("Destination :" + getDest());
+        System.out.println("Capacity    :" + getCapacity());
         System.out.println("Reserved Seat : "+reservedS);
         System.out.println("Free Seat : "+freeS);
     }
@@ -58,6 +57,9 @@ class Express extends Train{
 public class TestExpress{
     public static void main(String[] args){
         Express ex = new Express();
+        ex.setName("Narita Express");
+        ex.setDest("Narita");
+        ex.setCapacity(2000);
         ex.setReservedS(1800);
         ex.setFreeS(200);
         ex.display();
