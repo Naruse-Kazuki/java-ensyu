@@ -1,4 +1,6 @@
-import java.io.*;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 class TestSearchString {
   public static void main(String[] args) {
